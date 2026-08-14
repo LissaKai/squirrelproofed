@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f5f0">
+<title>Squirrelproofed — tools for brains that forget things</title>
+<meta name="description" content="Interactive, ADHD-friendly trackers. Tap a box, it saves.">
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;background:#f7f5f0;color:#2c2a26;
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;
+  display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px;
+  -webkit-font-smoothing:antialiased;text-align:center
+}
+.box{max-width:440px}
+.nut{font-size:52px;line-height:1;margin-bottom:14px}
+h1{font-size:30px;margin:0 0 6px;letter-spacing:-.02em}
+.tag{color:#77726a;margin:0 0 30px}
+a.card{
+  display:block;text-decoration:none;color:inherit;background:#fff;
+  border:1px solid #e6e1d8;border-radius:16px;padding:18px 20px;text-align:left;
+  margin-bottom:10px;transition:transform .15s ease,box-shadow .15s ease
+}
+a.card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.07)}
+.card b{display:block;font-size:17px;margin-bottom:2px}
+.card span{display:block;font-size:14px;color:#77726a}
+.soon{background:transparent;border-style:dashed;opacity:.6}
+.foot{color:#9a948a;font-size:13px;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="nut">🐿️</div>
+  <h1>Squirrelproofed</h1>
+  <p class="tag">Interactive trackers for brains that forget things.<br>Tap a box. It saves. That's it.</p>
+
+  <a class="card" href="/bills">
+    <b>Bill &amp; Subscription Tracker →</b>
+    <span>See what's due, what's paid, and what's left after the bills.</span>
+  </a>
+
+  <div class="card soon">
+    <b>Debt Payoff Tracker</b>
+    <span>Coming soon.</span>
+  </div>
+
+  <p class="foot">Made by someone with ADHD, for people with ADHD.</p>
+</div>
+</body>
+</html>
