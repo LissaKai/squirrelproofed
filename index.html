@@ -17,11 +17,11 @@ body{
   display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px;
   -webkit-font-smoothing:antialiased;text-align:center
 }
-.box{max-width:440px}
+.box{max-width:460px;width:100%}
 .nut{font-size:52px;line-height:1;margin-bottom:14px}
 h1{font-size:30px;margin:0 0 6px;letter-spacing:-.02em}
-.tag{color:#77726a;margin:0 0 30px}
-a.card{
+.tag{color:#77726a;margin:0 0 28px}
+.card{
   display:block;text-decoration:none;color:inherit;background:#fff;
   border:1px solid #e6e1d8;border-radius:16px;padding:18px 20px;text-align:left;
   margin-bottom:10px;transition:transform .15s ease,box-shadow .15s ease
@@ -30,7 +30,15 @@ a.card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.07)}
 .card b{display:block;font-size:17px;margin-bottom:2px}
 .card span{display:block;font-size:14px;color:#77726a}
 .soon{background:transparent;border-style:dashed;opacity:.6}
-.foot{color:#9a948a;font-size:13px;margin-top:26px}
+.ask{background:#eef4f1;border-color:#d8e6df;margin-top:14px}
+.ask b{color:#3f7d6a}
+.shop{
+  display:block;margin:18px 0 6px;background:#3f7d6a;color:#fff;text-decoration:none;
+  border-radius:14px;padding:16px;font-weight:700;font-size:16px
+}
+.shop:hover{background:#356b5b}
+.owned{font-size:13px;color:#9a948a;line-height:1.7;margin-top:22px}
+.foot{color:#9a948a;font-size:13px;margin-top:14px}
 </style>
 </head>
 <body>
@@ -39,16 +47,29 @@ a.card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.07)}
   <h1>Squirrelproofed</h1>
   <p class="tag">Interactive trackers for brains that forget things.<br>Tap a box. It saves. That's it.</p>
 
-  <a class="card" href="/bills">
-    <b>Bill &amp; Subscription Tracker →</b>
-    <span>See what's due, what's paid, and what's left after the bills.</span>
-  </a>
+  <div class="card">
+    <b>Bill &amp; Subscription Tracker</b>
+    <span>See what's due, what's paid, and what's actually left after the bills. Printable PDF + an interactive version that saves your checkmarks.</span>
+  </div>
 
   <div class="card soon">
     <b>Debt Payoff Tracker</b>
     <span>Coming soon.</span>
   </div>
 
+  <div class="card soon">
+    <b>Home &amp; Cleaning Routine Tracker</b>
+    <span>Coming soon.</span>
+  </div>
+
+  <a class="shop" href="https://www.etsy.com/shop/SquirrelProofed">Visit the shop →</a>
+
+  <a class="card ask" href="https://www.etsy.com/shop/SquirrelProofed">
+    <b>What should I make next?</b>
+    <span>Message me. I build these in the order I need them myself — requests genuinely move things up the list.</span>
+  </a>
+
+  <p class="owned">Already bought one? Your private link is printed inside your PDF —<br>scan the QR code on the first page.</p>
   <p class="foot">Made by someone with ADHD, for people with ADHD.</p>
 </div>
 </body>
